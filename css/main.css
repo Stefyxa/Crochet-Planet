@@ -125,3 +125,8 @@ footer p {
     color: #999999;
     font-size: 12px;
 }
+footer a {
+    margin: 0;
+    color: #999999;
+    font-size: 16px;
+}
