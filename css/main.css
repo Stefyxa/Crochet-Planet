@@ -106,6 +106,22 @@
     font-family: monospace;
     padding: 10px 10px;
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
     margin: 0px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: column nowrap;
+}
+footer p {
+    margin: 0;
+    color: #999999;
+    font-size: 12px;
 }
