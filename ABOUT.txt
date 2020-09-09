@@ -1,6 +1,0 @@
-CROCHET PLANET
-
-Pallette:
-#a46bbf (mov)
-#80d4ff (albastru)
-#e6f7ff (albastru deschis)
