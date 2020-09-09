@@ -1,9 +1,8 @@
 .nav_bar a {
-    float: left;
     color: #a46bbf;
     font-family: monospace;
+    font-weight: bold;
     font-size: 20px;
-    padding: 5px 7px;
     text-decoration: none;
 }
 .nav_bar {
@@ -11,7 +10,22 @@
     border: 3px solid #80d4ff;
     border-radius: 15px;
 }
-#icon img {
+.nav_bar ul {
+    display: block;
+    list-style-type: none;
+    padding-inline-start: 1rem;
+    margin: .5rem;
+}
+.nav_bar ul li {
+    display: inline;
+    margin-right: .5rem;
+}
+#title {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#title img {
     border: 3px solid #80d4ff;
     border-radius: 15px;
 }
@@ -21,7 +35,8 @@
     padding: 0px 10px;
     font-size: 40px;
     text-decoration: none;
-    width: 300px;
+    margin: auto 0;
+    height: auto;
 }
 .about {
     background-color: #e6f7ff;
@@ -35,6 +50,13 @@
 }
 .about p {
     margin: 0px;
+}
+.newest_patterns .container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    justify-content: center;
 }
 .newest_patterns h1 {
     text-align: center;
@@ -52,21 +74,23 @@
     max-width: 100%;
 }
 .newest_patterns article {
-    width: 95%;
+    width: 100%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 5px;
-    float: left;
     width: 24.99999%;
     padding: 5px;
-
+    box-sizing: border-box;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     .newest_patterns article {
-        width: 49.99999%;
+        width: 40%;
+    }
+    .nav_bar a {
+        font-size: 15px;
     }
    }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 700px) {
       .newest_patterns article {
         width: 100%;
   }
